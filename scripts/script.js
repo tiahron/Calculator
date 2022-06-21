@@ -97,6 +97,7 @@ function keyboardInputHandler(e) {
   //press enter to see result
   if (e.key === "Enter") {
     calculate(result.value);
+    new_Audio('audio/audio.wav').play();
   }
 
   //backspace for removing the last input
